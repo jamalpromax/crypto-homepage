@@ -93,3 +93,36 @@ nav .btn {
   color: #fff;
   margin-bottom: 5px;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 3%;
+  }
+  nav {
+    flex-direction: column;
+  }
+  nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+  }
+  nav ul li {
+    font-size: 1.3rem;
+  }
+  nav .btn {
+    margin-top: 2rem;
+  }
+  .content h1 {
+    font-size: 4rem;
+  }
+  .content p {
+    font-size: 1rem;
+  }
+
+  .coin-list {
+    margin-top: 4rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+    right: auto;
+  }
+}
